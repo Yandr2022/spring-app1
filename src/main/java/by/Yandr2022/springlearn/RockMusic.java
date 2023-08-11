@@ -1,5 +1,8 @@
 package by.Yandr2022.springlearn;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class RockMusic implements Music {
     @Override
     public void doMyInit() {
