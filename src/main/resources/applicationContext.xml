@@ -8,18 +8,22 @@
 
     <context:property-placeholder location="classpath:musicPlayer.properties"/>
 
-    <bean id="ClmusicBean" class="by.Yandr2022.springlearn.ClassicalMusic">
+    <bean id="ClmusicBean" class="by.Yandr2022.springlearn.ClassicalMusic"
+          init-method="doMyInit" destroy-method="doMyDestroy">
     </bean>
-    <bean id="RmusicBean" class="by.Yandr2022.springlearn.RockMusic">
+    <bean id="RmusicBean" class="by.Yandr2022.springlearn.RockMusic" scope="prototype"
+          init-method="doMyInit" destroy-method="doMyDestroy">
     </bean>
-    <bean id="PmusicBean" class="by.Yandr2022.springlearn.PopMusic">
+    <bean id="PmusicBean" class="by.Yandr2022.springlearn.PopMusic"
+          init-method="doMyInit" destroy-method="doMyDestroy" factory-method="getPopMusic">
     </bean>
 
     <bean id="musicPlayer" class="by.Yandr2022.springlearn.MusicPlayer" scope="prototype">
-        <!--        <constructor-arg ref="musicBean"/>-->
+<!--                <constructor-arg ref="musicBean"/>-->
         <property name="musicList">
             <list>
                 <ref bean="ClmusicBean"/>
+                <ref bean="RmusicBean"/>
                 <ref bean="RmusicBean"/>
                 <ref bean="PmusicBean"/>
             </list>

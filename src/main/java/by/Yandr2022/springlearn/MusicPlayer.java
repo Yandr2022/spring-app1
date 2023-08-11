@@ -16,8 +16,8 @@ public class MusicPlayer {
         this.musicList = new ArrayList<>(music);
     }
 
-    public void playMusic(){
-        for (Music m:musicList) {
+    public void playMusic() {
+        for (Music m : musicList) {
             System.out.println("Playing " + m.getSong());
         }
 
