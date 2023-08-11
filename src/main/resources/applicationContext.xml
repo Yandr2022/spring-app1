@@ -15,7 +15,7 @@
     <bean id="PmusicBean" class="by.Yandr2022.springlearn.PopMusic">
     </bean>
 
-    <bean id="musicPlayer" class="by.Yandr2022.springlearn.MusicPlayer">
+    <bean id="musicPlayer" class="by.Yandr2022.springlearn.MusicPlayer" scope="prototype">
         <!--        <constructor-arg ref="musicBean"/>-->
         <property name="musicList">
             <list>
