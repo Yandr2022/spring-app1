@@ -1,13 +1,13 @@
 package by.Yandr2022.springlearn;
 
-public class ClassicalMusic implements Music {
+public class PopMusic implements Music {
     @Override
     public String getSong() {
-        return "Hungarian Rhapsody";
+        return "La-la-la";
     }
 
     @Override
     public String toString() {
-        return "ClassicalMusic";
+        return "PopMusic";
     }
 }
