@@ -1,17 +1,19 @@
 package by.Yandr2022.springlearn;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MusicPlayer {
-    private List<Music> musicList;
+    private List<Music> musicList= new ArrayList<>();;
     private String name;
     private int volume;
 
     public MusicPlayer() {
-        musicList = new ArrayList<>();
+
     }
 
     public MusicPlayer(List<Music> music) {
