@@ -4,21 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d3fac73-03fe-44d2-a647-fdf8681c3cf9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/ClassicalMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/MusicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/RockMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="8d3fac73-03fe-44d2-a647-fdf8681c3cf9" name="Changes" comment="Dependency Injection: @Qualifier">
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/homework2/ClassicalMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/homework2/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/homework2/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/homework2/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/homework2/PopMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/homework2/RockMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/homework2/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/MusicPlayer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/MusicPlayer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/PopMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/PopMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/homework1/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/homework1/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/homework1/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/homework1/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/homework1/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/homework1/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/homework1/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/homework1/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/homework1/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/homework1/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/homework1/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/springlearn/part1_SpringCore/homework1/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +41,7 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -59,17 +71,34 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/spring-app1/src/main/java/by/Yandr2022/springlearn/part1_SpringCore",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.75258917",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "7a9e204436bfd7426266569be53a0274",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\spring-app1\src\main\java\by\Yandr2022\springlearn\part1_SpringCore" />
+      <recent name="C:\Users\User\IdeaProjects\spring-app1\src\main\java\by\Yandr2022\springlearn\homework2" />
+      <recent name="C:\Users\User\IdeaProjects\spring-app1\src\main\java\by\Yandr2022\springlearn" />
+      <recent name="C:\Users\User\IdeaProjects\spring-app1\src\main\java\by\Yandr2022\springlearn\homework1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="by.Yandr2022.springlearn.homework2" />
+      <recent name="" />
+      <recent name="by.Yandr2022.springlearn.homework1" />
+      <recent name="by.Yandr2022.springlearn" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.by.Yandr2022.springlearn.part1_SpringCore.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.Yandr2022.springlearn.Demo" />
       <module name="spring-app1" />
@@ -83,8 +112,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="by.Yandr2022.springlearn.homework2.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.Yandr2022.springlearn.homework2.Demo" />
+      <module name="spring-app1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.Yandr2022.springlearn.homework2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="by.Yandr2022.springlearn.part1_SpringCore.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.Yandr2022.springlearn.part1_SpringCore.Demo" />
+      <module name="spring-app1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.Yandr2022.springlearn.part1_SpringCore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="by.Yandr2022.springlearn.part1_SpringCore.homework1.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.Yandr2022.springlearn.part1_SpringCore.homework1.Demo" />
+      <module name="spring-app1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.Yandr2022.springlearn.part1_SpringCore.homework1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="by.Yandr2022.springlearn.part1_SpringCore.homework2.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.Yandr2022.springlearn.part1_SpringCore.homework2.Demo" />
+      <module name="spring-app1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.Yandr2022.springlearn.part1_SpringCore.homework2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.by.Yandr2022.springlearn.part1_SpringCore.Demo" />
+        <item itemvalue="Application.by.Yandr2022.springlearn.part1_SpringCore.homework2.Demo" />
+        <item itemvalue="Application.by.Yandr2022.springlearn.part1_SpringCore.homework1.Demo" />
+        <item itemvalue="Application.by.Yandr2022.springlearn.homework2.Demo" />
         <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
@@ -97,11 +182,92 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691738528075</updated>
-      <workItem from="1691738529596" duration="3679000" />
+      <workItem from="1691738529596" duration="15363000" />
+      <workItem from="1691992403287" duration="7844000" />
+      <workItem from="1692080232014" duration="10510000" />
     </task>
+    <task id="LOCAL-00001" summary="IoC demo">
+      <created>1691744853948</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691744853948</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Dependency Injection demo">
+      <created>1691748058055</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691748058055</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Dependency Injection demo-2">
+      <created>1691751546260</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691751546260</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Bean Scope demo">
+      <created>1691752685133</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691752685133</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Bean Life Cycle, init, destroy, factory methods">
+      <created>1691754754915</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691754754915</updated>
+    </task>
+    <task id="LOCAL-00006" summary="@Component">
+      <created>1691756109501</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691756109501</updated>
+    </task>
+    <task id="LOCAL-00007" summary="@Autowired">
+      <created>1691761337517</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691761337517</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Dependency Injection: @Qualifier">
+      <created>1692024338944</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692024338944</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="IoC demo" />
+    <MESSAGE value="Dependency Injection demo" />
+    <MESSAGE value="Dependency Injection demo-2" />
+    <MESSAGE value="Bean Scope demo" />
+    <MESSAGE value="Bean Life Cycle, init, destroy, factory methods" />
+    <MESSAGE value="@Component" />
+    <MESSAGE value="@Autowired" />
+    <MESSAGE value="Dependency Injection: @Qualifier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dependency Injection: @Qualifier" />
   </component>
 </project>

@@ -1,15 +1,18 @@
-package by.Yandr2022.springlearn;
+package by.Yandr2022.springlearn.part1_SpringCore;
 
-import org.springframework.stereotype.Component;
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
-@Component
+
 public class RockMusic implements Music {
     @Override
+    @PostConstruct
     public void doMyInit() {
         System.out.println("Rock music initialization");
     }
 
     @Override
+    @PreDestroy
     public void doMyDestroy() {
         System.out.println("Rock music destruction");
     }

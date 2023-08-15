@@ -1,13 +1,11 @@
-package by.Yandr2022.springlearn.homework1;
+package by.Yandr2022.springlearn.part1_SpringCore.homework2;
 
-
-import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-@Component("cm")
+
 public class ClassicalMusic implements Music {
     private final List<String> SONGS = new ArrayList<>() {{
         add("Hungarian Rhapsody");

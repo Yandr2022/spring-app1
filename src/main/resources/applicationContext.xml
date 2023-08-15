@@ -3,14 +3,18 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-       http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context
-       http://www.springframework.org/schema/context/spring-context.xsd">
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+http://www.springframework.org/schema/util
+https://www.springframework.org/schema/util/spring-util.xsd">
 
-    <context:component-scan base-package="by.Yandr2022.springlearn"/>
+    <context:component-scan base-package="by.Yandr2022.springlearn.part1_SpringCore.homework1"/>
+        <context:property-placeholder location="classpath:musicPlayer.properties"/>
 
-<!--    <context:property-placeholder location="classpath:musicPlayer.properties"/>-->
 
-<!--    <bean id="ClmusicBean" class="by.Yandr2022.springlearn.ClassicalMusic"-->
+
+<!--    <bean class="by.Yandr2022.springlearn.ClassicalMusic"-->
 <!--          init-method="doMyInit" destroy-method="doMyDestroy">-->
 <!--    </bean>-->
 <!--    <bean id="RmusicBean" class="by.Yandr2022.springlearn.RockMusic" scope="prototype"-->

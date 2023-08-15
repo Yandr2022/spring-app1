@@ -1,4 +1,4 @@
-package by.Yandr2022.springlearn;
+package by.Yandr2022.springlearn.part1_SpringCore;
 
 public interface Music {
     void doMyInit();

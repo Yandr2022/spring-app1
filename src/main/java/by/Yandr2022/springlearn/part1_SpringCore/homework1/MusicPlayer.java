@@ -1,4 +1,4 @@
-package by.Yandr2022.springlearn.homework1;
+package by.Yandr2022.springlearn.part1_SpringCore.homework1;
 
 
 import org.springframework.beans.factory.annotation.Autowired;

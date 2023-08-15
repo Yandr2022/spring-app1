@@ -1,12 +1,10 @@
-package by.Yandr2022.springlearn.homework1;
-
-import org.springframework.stereotype.Component;
+package by.Yandr2022.springlearn.part1_SpringCore.homework2;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-@Component("rm")
+
 public class RockMusic implements Music {
     private final List<String> SONGS = new ArrayList<>() {{
         add("Wind cries Mary");
